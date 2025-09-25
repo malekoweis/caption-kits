@@ -209,3 +209,59 @@ footer p {
         gap: 10px;
     }
 }
+
+/* Kits section */
+.kits-section {
+    padding: 60px 0;
+    background-color: #0A122B;
+}
+
+.kits-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.kit-card {
+    background-color: #050A1E;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.kit-card:hover {
+    transform: translateY(-5px);
+}
+
+.kit-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.kit-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.kit-title {
+    font-size: 1.25rem;
+    margin-bottom: 8px;
+    color: #FFFFFF;
+}
+
+.kit-desc {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    color: #C2C9E8;
+    line-height: 1.4;
+}
+
+.kit-price {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #5E83FF;
+    margin-bottom: 15px;
+}
